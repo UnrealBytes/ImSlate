@@ -1,0 +1,37 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "ImSlate",
+	"Category": "",
+	"CreatedBy": "",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"Modules": [
+		{
+			"Name": "ImSlate",
+			"Type": "Runtime",
+			"LoadingPhase": "PreDefault",
+			"BlacklistTargets": [ "Server" ]
+		},
+		{
+			"Name": "InGameUI",
+			"Type": "Runtime",
+			"LoadingPhase": "PreDefault",
+			"BlacklistTargets": [ "Server" ]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "GenericStorages",
+			"Enabled": true
+		},
+		{
+			"Name": "GMP",
+			"Enabled": true
+		}
+	]
+}
